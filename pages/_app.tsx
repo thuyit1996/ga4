@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return <>
 
     <Component {...pageProps} />
-    <Script
+    {/* <Script
       src="https://www.googletagmanager.com/gtag/js?id=G-M1LCNXGQ5E"
       strategy="afterInteractive"
     />
@@ -23,6 +23,6 @@ export default function App({ Component, pageProps }: AppProps) {
 
               gtag('config', 'G-M1LCNXGQ5E');
             `}
-    </Script>
+    </Script> */}
   </>
 }
